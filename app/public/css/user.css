@@ -1,0 +1,34 @@
+svg{
+    transform: scale(1.5);
+}
+svg:hover{
+    cursor :pointer;
+}
+
+#profilePicContainer{
+    width:fit-content
+}
+
+#pictureMenu{
+    display: block;
+    position: relative;
+    left: 1.5em;
+    top: -1em;
+    background-color: antiquewhite;
+    padding: 2px 3px;
+    transition: .7s ease;
+}
+
+#pictureMenu p{
+    padding: .5em 1em;
+}
+
+#pictureMenu div:hover{
+    cursor: pointer;
+    background-color: rgba(230, 208, 182, 0.726);
+}
+
+#pictureMenu div:active{
+    cursor: grabbing;
+    background-color: rgba(202, 188, 171, 0.726);
+}

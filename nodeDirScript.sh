@@ -15,7 +15,7 @@ cd models
 touch user.model.js
 cd ..
 cd routes
-touch index.js auth.route.js user.route.js
+touch user.route.js
 cd ..
 cd controllers
 touch auth.controller.js user.controller.js
